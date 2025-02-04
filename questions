@@ -1,0 +1,93 @@
+1.	What is tokenization in NLP?
+a) Removing stop words from a text
+b) Splitting text into smaller units like words or subwords ✅
+c) Converting words into numerical values
+d) Removing punctuation from a text
+
+2.  Which of the following tokenization techniques helps handle Out-Of-Vocabulary (OOV) words?
+a) Whitespace tokenization
+b) Word tokenization
+c) Subword tokenization ✅
+d) Sentence tokenization
+
+3.  Which of the following is an example of a common stop word in English?
+a) Algorithm
+b) Apple
+c) And ✅
+d) Python
+
+4.	What is a major drawback of removing stop words?
+a) It always reduces model accuracy
+b) It removes contextually important words ✅
+c) It increases computational cost
+d) It prevents tokenization
+
+5.	In which NLP task can stop word removal negatively impact results?
+a) Sentiment Analysis ✅
+b) Text Classification
+c) Information Retrieval
+d) Named Entity Recognition
+
+6.  What is the impact of stop words on TF-IDF calculations?
+a) Stop words have a low TF-IDF score ✅
+b) Stop words have the highest TF-IDF score
+c) Stop words are ignored by TF-IDF calculations
+d) Stop words improve document ranking
+
+7.  Which of the following is an example of stemming?
+a) “Running” → “Run” ✅
+b) “Better” → “Good”
+c) “Boys” → “Boy”
+d) “Played” → “Play”
+
+8.  If we apply lemmatization to the word “better,” what will be the result?
+a) Bett
+b) Good ✅
+c) Better
+d) Best
+
+9.  Which of the following algorithms is most commonly used in POS tagging tasks with deep learning?
+a) Random Forest
+b) Support Vector Machines (SVM)
+c) Long Short-Term Memory (LSTM) ✅
+d) K-Means Clustering
+
+10.  What type of NLP tasks commonly use the Bag of Words model?
+a) Text classification ✅
+b) Machine Translation
+c) Named Entity Recognition
+d) Text summarization
+
+11. Given the sentence: “The dog barks loudly at night.” What would be its Bag of Words vector representation (assuming only unique word counts)?
+a) [1, 1, 1, 1, 1] ✅
+b) [5, 1, 2, 1, 1]
+c) [1, 1, 1, 1, 0]
+d) [1, 0, 0, 1, 1]
+
+12.  If a word appears in multiple documents, how does IDF affect its TF-IDF score?
+a) IDF increases, making the TF-IDF score higher
+b) IDF decreases, making the TF-IDF score lower ✅
+c) IDF remains unchanged
+d) IDF eliminates the word from the corpus
+
+13.  Suppose a word appears in every document in a dataset. What would be its IDF value?
+a) High
+b) Zero ✅
+c) Negative
+d) Infinity
+
+14.  Given the following corpus:
+	•	Document 1: “The cat sat on the mat.”
+	•	Document 2: “The dog lay on the rug.”
+	•	Document 3: “The cat lay on the sofa.”
+If we calculate TF-IDF, which word is likely to have the highest score?
+a) The
+b) On
+c) Sofa ✅
+d) Cat
+
+15.  Which mathematical concept does Word2Vec primarily rely on?
+a) Cosine Similarity ✅
+b) Euclidean Distance
+c) TF-IDF
+d) Naïve Bayes
